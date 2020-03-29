@@ -1,0 +1,22 @@
+{
+  "name": "webpack-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "### Init NPM Execute `npm init` command to create `package.json`. ``` $ npm init -y ```",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
